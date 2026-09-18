@@ -21,13 +21,12 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: "pip"
 
       - name: Install Core Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install numpy scipy polars
+          pip install numpy scipy polars reportlab
 
-      - name: Run 5 Research Showcase Test Suites (20 Tests)
+      - name: Run 7 Research Showcase Test Suites (29 Tests)
         run: |
           python -m unittest discover research_showcases

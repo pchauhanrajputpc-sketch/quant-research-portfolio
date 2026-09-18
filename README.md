@@ -19,7 +19,7 @@ Senior Quantitative Analyst and Systematic Derivatives Strategist with **9+ year
 
 ---
 
-## 🎯 5 Flagship Quantitative Research Showcases
+## 🎯 7 Flagship Quantitative Research Showcases
 
 Below are self-contained, reproducible quantitative research repositories demonstrating empirical rigor, no-lookahead safeguards, explicit transaction cost modeling, and statistical validation:
 
@@ -30,6 +30,8 @@ Below are self-contained, reproducible quantitative research repositories demons
 | **03** | **[Bank Nifty Basket Cointegration](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/banknifty_cointegration)** | Johansen rank cointegration test, dynamic rolling OLS hedge ratios, Ornstein-Uhlenbeck half-life estimation, mean-reverting spread Z-scores. | Statistical arbitrage across banking heavyweights | [Engine & Tests](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/banknifty_cointegration) |
 | **04** | **[Market Regime & Volatility Gating](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/regime_allocation)** | Unsupervised K-Means clustering on Parkinson RV, IV/RV ratios, and return skewness. Counterfactual proof of reducing simulated portfolio max DD by 28%. | Dynamic gamma scaling & risk governance | [Engine & Tests](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/regime_allocation) |
 | **05** | **[Microstructure & Execution Simulator](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/execution_simulator)** | Order book queue priority, limit vs. market order fill probability, square-root market impact, and empirical proof of 1.8 bps market-crossing savings. | High-throughput async IPC & execution cost control | [Engine & Tests](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/execution_simulator) |
+| **06** | **[Institutional Tear Sheet Generator](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/institutional_tearsheet_generator)** | 6x2 KPI Scorecard, 8-year monthly returns heatmap grid, peak-to-trough underwater drawdown dynamics, publication-grade PDF report engine. | Executive CRO & Investment Committee reporting | [Engine & Tests](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/institutional_tearsheet_generator) |
+| **07** | **[Strategy Validator & Integrity Gate](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/strategy_validator_gate)** | 11-stage audit gate (Rules L1–L22), trade boundary clamping ($\le 15:14:59$), 2x friction stress testing, Monte Carlo drawdown cones (1,000 paths). | Systematic risk governance & anti-overfitting | [Engine & Tests](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/strategy_validator_gate) |
 
 ---
 
