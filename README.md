@@ -17,7 +17,7 @@
 
 Senior Quantitative Analyst and Systematic Derivatives Strategist with **9+ years of experience** developing, validating, and deploying systematic options volatility, statistical arbitrage, and microstructure-aware execution architectures across Indian (NSE/BSE) index and single-stock derivatives.
 
-- **Regulatory Status**: SEBI Registered Research Analyst • NISM Series-XV Certified
+- **Regulatory Status**: SEBI Registered Research Analyst • NISM Series-XV
 - **Education**: Bachelor of Commerce (Honours), Kirori Mal College, University of Delhi (1st Division) • CA Final G1 (ICAI, 78% Marks)
 - **Primary Domain**: Volatility Surface Spline Modeling, Cross-Asset Cointegration, Market Regime Classification, Point-in-Time Vectorized Backtesting, and Asynchronous Execution Infrastructure.
 - **Location**: New Delhi, India • Contact: `pchauhanrajput.pc@gmail.com`
