@@ -26,7 +26,7 @@ research_showcases/
 | **04** | **[Market Regime Classifier](./regime_allocation/)** | Unsupervised K-Means / GMM on Parkinson RV, IV/RV ratios, and return skewness. | Dynamic short-gamma gating reducing simulated maximum DD by 28%. | `python -m unittest research_showcases.regime_allocation.test_regime_classifier` |
 | **05** | **[Microstructure Simulator](./execution_simulator/)** | Limit vs. market order queue priority, square-root market impact $I \propto \sigma \sqrt{Q/V}$. | Quantitative attribution of 1.8 bps market-crossing savings via async IPC. | `python -m unittest research_showcases.execution_simulator.test_microstructure` |
 | **06** | **[Tear Sheet Generator](./institutional_tearsheet_generator/)** | 6x2 KPI Scorecard, 8-year monthly returns heatmap grid, peak-to-trough underwater drawdown dynamics. | Publication-grade PDF report engine for Executive CRO & Investment Committee review. | `python -m unittest research_showcases.institutional_tearsheet_generator.test_tearsheet_builder` |
-| **07** | **[Strategy Validator Gate](./strategy_validator_gate/)** | 11-stage production audit gate (Rules L1–L22), trade boundary clamping ($\le 15:14:59$). | 2x turnover friction stress test and Monte Carlo drawdown cones (1,000 paths). | `python -m unittest research_showcases.strategy_validator_gate.test_validator_gate` |
+| **07** | **[Strategy Validator Gate](./strategy_validator_gate/)** | 11-stage production audit gate (Rules L1–L22), systematic intraday horizon boundaries. | 2x turnover friction stress test and Monte Carlo drawdown cones (1,000 paths). | `python -m unittest research_showcases.strategy_validator_gate.test_validator_gate` |
 
 ---
 

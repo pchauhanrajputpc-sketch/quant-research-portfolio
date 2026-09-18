@@ -30,13 +30,13 @@ Below are self-contained, reproducible quantitative research repositories demons
 
 | # | Research Showcase | Quantitative Methodology | Institutional Alignment |
 |---|---|---|---|
-| **01** | **[Point-in-Time Backtesting Engine](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/point_in_time_backtester)** | Chronological event simulation, 0.50% turnover friction pre-deducted, exchange margin models (₹2.5L/₹1.8L/₹1.0L), 11-column canonical trade ledgers. | Rule L1–L22 Invariant Gate & WFO Validation |
+| **01** | **[Point-in-Time Backtesting Engine](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/point_in_time_backtester)** | Chronological event simulation, 0.50% turnover friction pre-deducted, dynamic clearing-house SPAN margin models, 11-column canonical trade ledgers. | Rule L1–L22 Invariant Gate & WFO Validation |
 | **02** | **[Options Volatility Surface & Greeks](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/options_volatility_surface)** | Black-Scholes inversion (Newton-Raphson/Brent), cubic spline & SVI surface fitting, arbitrage-free total variance constraints, dealer Gamma Exposure (GEX). | Real-time volatility skew & Greeks risk |
 | **03** | **[Bank Nifty Basket Cointegration](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/banknifty_cointegration)** | Johansen rank cointegration test, dynamic rolling OLS hedge ratios, Ornstein-Uhlenbeck half-life estimation, mean-reverting spread Z-scores. | Statistical arbitrage across banking heavyweights |
 | **04** | **[Market Regime & Volatility Gating](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/regime_allocation)** | Unsupervised K-Means clustering on Parkinson RV, IV/RV ratios, and return skewness. Counterfactual proof of reducing simulated portfolio max DD by 28%. | Dynamic gamma scaling & risk governance |
 | **05** | **[Microstructure & Execution Simulator](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/execution_simulator)** | Order book queue priority, limit vs. market order fill probability, square-root market impact, and empirical proof of 1.8 bps market-crossing savings. | High-throughput async IPC & execution cost control |
 | **06** | **[Institutional Tear Sheet Generator](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/institutional_tearsheet_generator)** | 6x2 KPI Scorecard, 8-year monthly returns heatmap grid, peak-to-trough underwater drawdown dynamics, publication-grade PDF report engine. | Executive CRO & Investment Committee reporting |
-| **07** | **[Strategy Validator & Integrity Gate](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/strategy_validator_gate)** | 11-stage audit gate (Rules L1–L22), trade boundary clamping ($\le 15:14:59$), 2x friction stress testing, Monte Carlo drawdown cones (1,000 paths). | Systematic risk governance & anti-overfitting |
+| **07** | **[Strategy Validator & Integrity Gate](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/strategy_validator_gate)** | 11-stage audit gate (Rules L1–L22), systematic intraday horizon boundaries, 2x friction stress testing, Monte Carlo drawdown cones (1,000 paths). | Systematic risk governance & anti-overfitting |
 
 ---
 
@@ -54,11 +54,8 @@ python -m unittest discover research_showcases
 
 All research published in this portfolio strictly adheres to institutional risk governance:
 1. **No-Lookahead Guarantee**: 100% causal point-in-time data handling. All indicator and signal logic references strictly historical bars ($t \le T-1$).
-2. **Turnover Friction Reality**: Every backtest deducts 0.50% round-trip friction (brokerage, STT, exchange turnover fees, SEBI charges, GST, and 1-tick slippage buffer) before calculating returns.
-3. **Regulatory Margin Conformance**: Sizing is strictly calibrated to Exchange Margin Benchmarks:
-   - Short Straddles: ₹2,50,000 per lot
-   - Naked Option Selling: ₹1,80,000 per lot
-   - Hedged Option Spreads: ₹1,00,000 per lot
+2. **Turnover Friction & Cost Reality**: Every backtest deducts a conservative 0.50% round-trip execution cost (bid-ask spread crossing, market impact, and statutory friction) before computing returns.
+3. **Dynamic Capital Allocation & Margin Constraints**: Position sizing is dynamically calibrated to clearing-house SPAN + Exposure margin models with explicit leverage caps and zero arbitrary cash haircuts ($\lfloor \text{Capital}/\text{Margin} \rfloor$).
 4. **Walk-Forward Overfitting Gate**: Models undergo 70% In-Sample training, 20% Out-of-Sample verification, and 10% Blind Holdout stress testing. Maximum allowable OOS Sharpe degradation is 30%.
 5. **Sanitization**: All published code is 100% IP-sanitized for educational and technical demonstration purposes. Zero live broker credentials, active accounts, or proprietary firm data are included.
 
