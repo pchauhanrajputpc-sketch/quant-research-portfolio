@@ -1,14 +1,14 @@
 # 🏛️ PRINCE CHAUHAN — QUANTITATIVE RESEARCH & SYSTEMATIC DERIVATIVES
 
 [![Build Status](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/actions/workflows/tests.yml/badge.svg)](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/actions)
-[![Unit Tests](https://img.shields.io/badge/Unit%20Tests-29%2F29%20Passing-10B981.svg)](#)
+[![Unit Tests](https://img.shields.io/badge/Unit%20Tests-29%2F29%20Passing-10B981.svg)](#-10-second-recruiter--quant-quick-start)
 [![SEBI Registered Research Analyst](https://img.shields.io/badge/SEBI%20Registration-Research%20Analyst-0284C7.svg)](https://www.sebi.gov.in/)
-[![Experience](https://img.shields.io/badge/Experience-9%2B%20Years%20Quant%20Desk-193B56.svg)](#)
-[![Primary Stack](https://img.shields.io/badge/Stack-Python%20%7C%20Polars%20%7C%20NumPy%20%7C%20SciPy-F59E0B.svg)](#)
-[![Exchange Coverage](https://img.shields.io/badge/Markets-NSE%20%7C%20BSE%20Index%20%26%20Equities-10B981.svg)](#)
-[![ATS CV](https://img.shields.io/badge/Curriculum%20Vitae-ATS%20Verified%20(1--Page)-EF4444.svg)](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/docs/PC_CV)
+[![Experience](https://img.shields.io/badge/Experience-9%2B%20Years%20Quant%20Desk-193B56.svg)](#-executive-profile)
+[![Primary Stack](https://img.shields.io/badge/Stack-Python%20%7C%20Polars%20%7C%20NumPy%20%7C%20SciPy-F59E0B.svg)](#%EF%B8%8F-quantitative--technical-stack)
+[![Exchange Coverage](https://img.shields.io/badge/Markets-NSE%20%7C%20BSE%20Index%20%26%20Equities-10B981.svg)](#-quantitative-standards--invariants)
+[![ATS CV](https://img.shields.io/badge/Curriculum%20Vitae-ATS%20Verified%20(1--Page)-EF4444.svg)](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher%20CV%20-%20ATS%20Format.pdf)
 
-> 🔒 **INSTITUTIONAL COMPLIANCE & IP ISOLATION NOTICE**:  
+> 🔒 **INSTITUTIONAL COMPLIANCE & IP ISOLATION NOTICE**:
 > *All research models, volatility surfaces, backtesting engines, and risk gates in this public portfolio are self-contained educational implementations. Live order execution algorithms, high-frequency broker interfaces (DhanHQ), production alpha parameters, and real-money strategy books operate exclusively in a private, air-gapped trading desk environment.*
 
 ---
@@ -77,9 +77,7 @@ All research published in this portfolio strictly adheres to institutional risk 
 ## 📄 Official Documents & Verification
 
 - 📄 **1-Page ATS Master CV (PDF)**: [`Prince Chauhan Quants Researcher CV - ATS Format.pdf`](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher%20CV%20-%20ATS%20Format.pdf)
-- 📝 **Master Editable CV (DOCX)**: [`Prince Chauhan Quants Researcher CV - ATS Format.docx`](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher%20CV%20-%20ATS%20Format.docx)
-- 💼 **LinkedIn Profile**: [linkedin.com/in/prince-chauhan-quant](https://www.linkedin.com/)
-- 💻 **Public Quantitative Research Portfolio**: [github.com/pchauhanrajputpc-sketch/quant-research-portfolio](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio)
+- 💼 **Desk Inquiries & Collaboration**: [pchauhanrajput.pc@gmail.com](mailto:pchauhanrajput.pc@gmail.com) • [LinkedIn Network](https://www.linkedin.com/in/prince-chauhan-quant/)
 
 ---
 *Maintained by Prince Chauhan Quant Desk • New Delhi, India*
