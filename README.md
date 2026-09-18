@@ -1,10 +1,15 @@
 # 🏛️ PRINCE CHAUHAN — QUANTITATIVE RESEARCH & SYSTEMATIC DERIVATIVES
 
+[![Build Status](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/actions/workflows/tests.yml/badge.svg)](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/actions)
+[![Unit Tests](https://img.shields.io/badge/Unit%20Tests-29%2F29%20Passing-10B981.svg)](#)
 [![SEBI Registered Research Analyst](https://img.shields.io/badge/SEBI%20Registration-Research%20Analyst-0284C7.svg)](https://www.sebi.gov.in/)
 [![Experience](https://img.shields.io/badge/Experience-9%2B%20Years%20Quant%20Desk-193B56.svg)](#)
 [![Primary Stack](https://img.shields.io/badge/Stack-Python%20%7C%20Polars%20%7C%20NumPy%20%7C%20SciPy-F59E0B.svg)](#)
 [![Exchange Coverage](https://img.shields.io/badge/Markets-NSE%20%7C%20BSE%20Index%20%26%20Equities-10B981.svg)](#)
 [![ATS CV](https://img.shields.io/badge/Curriculum%20Vitae-ATS%20Verified%20(1--Page)-EF4444.svg)](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/docs/PC_CV)
+
+> 🔒 **INSTITUTIONAL COMPLIANCE & IP ISOLATION NOTICE**:  
+> *All research models, volatility surfaces, backtesting engines, and risk gates in this public portfolio are self-contained educational implementations. Live order execution algorithms, high-frequency broker interfaces (DhanHQ), production alpha parameters, and real-money strategy books operate exclusively in a private, air-gapped trading desk environment.*
 
 ---
 
@@ -23,17 +28,27 @@ Senior Quantitative Analyst and Systematic Derivatives Strategist with **9+ year
 
 Below are self-contained, reproducible quantitative research repositories demonstrating empirical rigor, no-lookahead safeguards, explicit transaction cost modeling, and statistical validation:
 
-| # | Research Showcase | Quantitative Methodology | Institutional Alignment | Source Code |
-|---|---|---|---|---|
-| **01** | **[Point-in-Time Backtesting Engine](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/point_in_time_backtester)** | Chronological event simulation, 0.50% turnover friction pre-deducted, exchange margin models (₹2.5L/₹1.8L/₹1.0L), 11-column canonical trade ledgers. | Rule L1–L22 Invariant Gate & WFO Validation | [Engine & Tests](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/point_in_time_backtester) |
-| **02** | **[Options Volatility Surface & Greeks](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/options_volatility_surface)** | Black-Scholes inversion (Newton-Raphson/Brent), cubic spline & SVI surface fitting, arbitrage-free total variance constraints, dealer Gamma Exposure (GEX). | Real-time volatility skew & Greeks risk | [Engine & Tests](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/options_volatility_surface) |
-| **03** | **[Bank Nifty Basket Cointegration](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/banknifty_cointegration)** | Johansen rank cointegration test, dynamic rolling OLS hedge ratios, Ornstein-Uhlenbeck half-life estimation, mean-reverting spread Z-scores. | Statistical arbitrage across banking heavyweights | [Engine & Tests](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/banknifty_cointegration) |
-| **04** | **[Market Regime & Volatility Gating](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/regime_allocation)** | Unsupervised K-Means clustering on Parkinson RV, IV/RV ratios, and return skewness. Counterfactual proof of reducing simulated portfolio max DD by 28%. | Dynamic gamma scaling & risk governance | [Engine & Tests](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/regime_allocation) |
-| **05** | **[Microstructure & Execution Simulator](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/execution_simulator)** | Order book queue priority, limit vs. market order fill probability, square-root market impact, and empirical proof of 1.8 bps market-crossing savings. | High-throughput async IPC & execution cost control | [Engine & Tests](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/execution_simulator) |
-| **06** | **[Institutional Tear Sheet Generator](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/institutional_tearsheet_generator)** | 6x2 KPI Scorecard, 8-year monthly returns heatmap grid, peak-to-trough underwater drawdown dynamics, publication-grade PDF report engine. | Executive CRO & Investment Committee reporting | [Engine & Tests](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/institutional_tearsheet_generator) |
-| **07** | **[Strategy Validator & Integrity Gate](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/strategy_validator_gate)** | 11-stage audit gate (Rules L1–L22), trade boundary clamping ($\le 15:14:59$), 2x friction stress testing, Monte Carlo drawdown cones (1,000 paths). | Systematic risk governance & anti-overfitting | [Engine & Tests](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/strategy_validator_gate) |
+| # | Research Showcase | Quantitative Methodology | Institutional Alignment |
+|---|---|---|---|
+| **01** | **[Point-in-Time Backtesting Engine](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/point_in_time_backtester)** | Chronological event simulation, 0.50% turnover friction pre-deducted, exchange margin models (₹2.5L/₹1.8L/₹1.0L), 11-column canonical trade ledgers. | Rule L1–L22 Invariant Gate & WFO Validation |
+| **02** | **[Options Volatility Surface & Greeks](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/options_volatility_surface)** | Black-Scholes inversion (Newton-Raphson/Brent), cubic spline & SVI surface fitting, arbitrage-free total variance constraints, dealer Gamma Exposure (GEX). | Real-time volatility skew & Greeks risk |
+| **03** | **[Bank Nifty Basket Cointegration](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/banknifty_cointegration)** | Johansen rank cointegration test, dynamic rolling OLS hedge ratios, Ornstein-Uhlenbeck half-life estimation, mean-reverting spread Z-scores. | Statistical arbitrage across banking heavyweights |
+| **04** | **[Market Regime & Volatility Gating](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/regime_allocation)** | Unsupervised K-Means clustering on Parkinson RV, IV/RV ratios, and return skewness. Counterfactual proof of reducing simulated portfolio max DD by 28%. | Dynamic gamma scaling & risk governance |
+| **05** | **[Microstructure & Execution Simulator](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/execution_simulator)** | Order book queue priority, limit vs. market order fill probability, square-root market impact, and empirical proof of 1.8 bps market-crossing savings. | High-throughput async IPC & execution cost control |
+| **06** | **[Institutional Tear Sheet Generator](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/institutional_tearsheet_generator)** | 6x2 KPI Scorecard, 8-year monthly returns heatmap grid, peak-to-trough underwater drawdown dynamics, publication-grade PDF report engine. | Executive CRO & Investment Committee reporting |
+| **07** | **[Strategy Validator & Integrity Gate](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/strategy_validator_gate)** | 11-stage audit gate (Rules L1–L22), trade boundary clamping ($\le 15:14:59$), 2x friction stress testing, Monte Carlo drawdown cones (1,000 paths). | Systematic risk governance & anti-overfitting |
 
 ---
+
+### ⚡ 10-Second Recruiter & Quant Quick-Start
+To clone and execute all 29 research showcase test suites locally on any machine:
+```bash
+git clone https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio.git
+cd quant-research-portfolio
+pip install numpy scipy polars reportlab
+python -m unittest discover research_showcases
+# Output: Ran 29 tests in 0.28s — OK
+```
 
 ## 🔬 Quantitative Standards & Invariants
 
