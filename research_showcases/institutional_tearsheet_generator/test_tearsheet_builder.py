@@ -51,7 +51,7 @@ class TestTearsheetBuilder(unittest.TestCase):
         matrix = self.builder.compute_monthly_matrix([{"date": "2024-01-15", "pnl": 100000.0}])
         with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as f:
             pdf_path = f.name
-        
+
         ok = self.builder.export_pdf_report(pdf_path, "NIFTY SHORT STRADDLE", scorecard, matrix)
         if ok:
             p = Path(pdf_path)

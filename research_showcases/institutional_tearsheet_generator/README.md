@@ -1,12 +1,12 @@
 # 📊 Institutional Performance Tear Sheet & Heatmap Builder
 
-**Author**: Prince Chauhan Quant Desk (SEBI Registered Research Analyst)  
+**Author**: Prince Chauhan Quant Desk (SEBI Registered Research Analyst)
 **Classification**: Systematic Performance Attribution & Visual Analytics
 
 ---
 
 ## 🎯 Executive Overview
-Institutional allocators and risk committees evaluate quantitative strategies not through terminal printouts, but via structured, publication-quality **Performance Tear Sheets**. 
+Institutional allocators and risk committees evaluate quantitative strategies not through terminal printouts, but via structured, publication-quality **Performance Tear Sheets**.
 
 This engine implements the core attribution logic used in institutional desks:
 1. **6x2 KPI Scorecard Grid**: Total Net PnL, CAGR, Sharpe Ratio, Sortino Ratio, Calmar Ratio, Maximum Drawdown, Win Rate, Profit Factor, Total Trades, Expectancy, and Recovery Factor.

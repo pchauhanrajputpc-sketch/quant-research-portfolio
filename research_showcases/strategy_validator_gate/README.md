@@ -1,6 +1,6 @@
 # 🛡️ 11-Stage Quantitative Strategy Validator & Stress Auditor Gate
 
-**Author**: Prince Chauhan Quant Desk (SEBI Registered Research Analyst)  
+**Author**: Prince Chauhan Quant Desk (SEBI Registered Research Analyst)
 **Classification**: Systematic Risk Governance & Anti-Overfitting Auditing
 
 ---
