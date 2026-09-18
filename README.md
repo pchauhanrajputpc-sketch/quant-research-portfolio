@@ -74,7 +74,7 @@ All research published in this portfolio strictly adheres to institutional risk 
 ## 📄 Official Documents & Verification
 
 - 📄 **1-Page ATS Master CV (PDF)**: [`Prince Chauhan Quants Researcher CV - ATS Format.pdf`](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher%20CV%20-%20ATS%20Format.pdf)
-- 💼 **Desk Inquiries & Collaboration**: [pchauhanrajput.pc@gmail.com](mailto:pchauhanrajput.pc@gmail.com) • [LinkedIn Network](https://www.linkedin.com/in/prince-chauhan-quant/)
+- 💼 **Desk Inquiries & Collaboration**: [pchauhanrajput.pc@gmail.com](mailto:pchauhanrajput.pc@gmail.com)
 
 ---
 *Maintained by Prince Chauhan Quant Desk • New Delhi, India*
