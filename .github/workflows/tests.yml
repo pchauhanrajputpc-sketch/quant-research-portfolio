@@ -8,7 +8,7 @@ on:
 
 jobs:
   test-showcases:
-    name: Run 5 Quantitative Research Showcase Test Suites
+    name: Run 7 Quantitative Research Showcase Test Suites (29 Tests)
     runs-on: ubuntu-latest
     permissions:
       contents: read

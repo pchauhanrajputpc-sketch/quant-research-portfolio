@@ -17,7 +17,7 @@
 
 Senior Quantitative Analyst and Systematic Derivatives Strategist with **9+ years of experience** developing, validating, and deploying systematic options volatility, statistical arbitrage, and microstructure-aware execution architectures across Indian (NSE/BSE) index and single-stock derivatives.
 
-- **Regulatory Status**: SEBI Registered Research Analyst • NISM Series-XV
+- **Regulatory Status**: SEBI Registered Research Analyst • NISM Series-XV Certified
 - **Education**: Bachelor of Commerce (Honours), Kirori Mal College, University of Delhi (1st Division) • CA Final G1 (ICAI, 78% Marks)
 - **Primary Domain**: Volatility Surface Spline Modeling, Cross-Asset Cointegration, Market Regime Classification, Point-in-Time Vectorized Backtesting, and Asynchronous Execution Infrastructure.
 - **Location**: New Delhi, India • Contact: `pchauhanrajput.pc@gmail.com`
@@ -53,11 +53,12 @@ python -m unittest discover research_showcases
 ## 🔬 Quantitative Standards & Invariants
 
 All research published in this portfolio strictly adheres to institutional risk governance:
-1. **No-Lookahead Guarantee**: 100% causal point-in-time data handling. All indicator and signal logic references strictly historical bars ($t \le T-1$).
+1. **No-Lookahead Guarantee**: 100% causal point-in-time data handling. All indicator and signal logic references strictly historical bars (t <= T-1).
 2. **Turnover Friction & Cost Reality**: Every backtest deducts a conservative 0.50% round-trip execution cost (bid-ask spread crossing, market impact, and statutory friction) before computing returns.
-3. **Dynamic Capital Allocation & Margin Constraints**: Position sizing is dynamically calibrated to clearing-house SPAN + Exposure margin models with explicit leverage caps and zero arbitrary cash haircuts ($\lfloor \text{Capital}/\text{Margin} \rfloor$).
+3. **Dynamic Capital Allocation & Margin Constraints**: Position sizing is dynamically calibrated to clearing-house SPAN + Exposure margin models with explicit leverage caps and zero arbitrary cash haircuts (floor(Capital / Margin)).
 4. **Walk-Forward Overfitting Gate**: Models undergo 70% In-Sample training, 20% Out-of-Sample verification, and 10% Blind Holdout stress testing. Maximum allowable OOS Sharpe degradation is 30%.
 5. **Sanitization**: All published code is 100% IP-sanitized for educational and technical demonstration purposes. Zero live broker credentials, active accounts, or proprietary firm data are included.
+
 
 ---
 
@@ -74,7 +75,7 @@ All research published in this portfolio strictly adheres to institutional risk 
 ## 📄 Official Documents & Verification
 
 - 📄 **1-Page ATS Master CV (PDF)**: [`Prince Chauhan Quants Researcher CV - ATS Format.pdf`](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher%20CV%20-%20ATS%20Format.pdf)
-- 💼 **Desk Inquiries & Collaboration**: [pchauhanrajput.pc@gmail.com](mailto:pchauhanrajput.pc@gmail.com)
+- 💼 **Desk Inquiries & Collaboration**: [pchauhanrajput.pc@gmail.com](mailto:pchauhanrajput.pc@gmail.com) • [LinkedIn Network](https://www.linkedin.com/in/prince-chauhan-quant/)
 
 ---
 *Maintained by Prince Chauhan Quant Desk • New Delhi, India*
