@@ -39,3 +39,18 @@ python -m unittest discover research_showcases
 ```
 
 All 7 projects are **100% self-contained**, have zero live broker dependencies, and run cross-platform on Windows and Linux/macOS.
+
+---
+
+## 🏛️ Advanced Quantitative Infrastructure Map
+
+For external reviewers and institutional quant desks auditing full-stack capabilities beyond the public showcases:
+
+| Institutional Capability | Repository Module & Architecture | Mathematical / Statistical Standard |
+|---|---|---|
+| **Monte Carlo Sequence Risk** | `strategy_validator_gate/validator_gate.py` (Stage 10)<br>`BACKTEST FOLDER/core_engine/stress_tester.py` | 1,000 bootstrap resamplings on trade P&L arrays, 95th & 99th percentile worst-case drawdown bounds, probability of ruin, fan cone quantile bands. |
+| **Walk-Forward Optimization (WFO)** | `BACKTEST_TOOLKIT/04_CALIBRATION_AND_OPTIMIZATION/`<br>`02_PARAMETER_PLATEAU_AND_WFO.md`<br>`03_UNIVERSAL_PNC_SWEEP_ENGINE.py` | 70% In-Sample training, 20% Out-of-Sample verification, 10% Blind Holdout. Deflated Sharpe Ratio (DSR >= 0.95) and WFO efficiency retention >= 65%. |
+| **Parameter Plateau & Cliff Analysis** | `BACKTEST_TOOLKIT/04_CALIBRATION_AND_OPTIMIZATION/`<br>`universal_pnc_sweeper.py` | Invariant C5 (Parameter Plateau Mandate): Discrete +/-15% parameter neighborhood sweeps. Automatically rejects "knife-edge" curve-fit spikes if neighbor Sharpe degrades > 25%. |
+| **Live-to-Backtest Parity Audit** | `MISC/live_trade_telemetry_auditor.py`<br>`STAGE 4: Forward Paper Incubator` | 15-column schema verification (including sec_id, timestamps, prices, and slippage bounds <= 5%). Audits trade logs against Port 5008 telemetry cards. |
+| **Cross-Strategy Correlation Matrix** | `BACKTEST_TOOLKIT/05_PORTFOLIO_ENGINE/`<br>`portfolio_aggregator.py` | Multi-strategy portfolio aggregation across 1,755 sessions (Naked Selling, ORB Buying, Straddle, Scalper). Pairwise correlation matrix, portfolio Sharpe/Calmar, and combined equity curves. |
+| **Automated End-of-Day Pipeline** | `NIGHTLY_RESEARCH_PIPELINE.bat` | Automated local workstation pipeline scheduled at 18:00 IST: Ghost session purge -> Live trade parity audit -> EOD auto-trainer -> 105-check smoke test -> Automated disaster recovery push to GitHub origin/main. |
