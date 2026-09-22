@@ -11,7 +11,7 @@
 [![Author Profile](https://img.shields.io/badge/GitHub%20Profile-pchauhanrajputpc--sketch-193B56.svg)](https://github.com/pchauhanrajputpc-sketch)
 [![Curriculum Vitae](https://img.shields.io/badge/Curriculum%20Vitae-Executive%20Profile%20(PDF)-0A2540.svg)](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher%20CV%20-%20ATS%20Format.pdf)
 
-> **PROPRIETARY INTELLECTUAL PROPERTY & COMPLIANCE NOTICE**:  
+> **PROPRIETARY INTELLECTUAL PROPERTY & COMPLIANCE NOTICE**:
 > *This repository contains sanitized reference research architectures, mathematical derivations, and risk validation kernels for institutional review. Proprietary alpha signals, live automated order execution loops, high-frequency co-location telemetry (DhanHQ), and real-money book parameters operate exclusively within an air-gapped, institutional private environment.*
 
 ---
