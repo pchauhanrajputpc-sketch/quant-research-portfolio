@@ -1,7 +1,7 @@
-# 🏛️ INSTITUTIONAL QUANTITATIVE RESEARCH SHOWCASES
+# INSTITUTIONAL QUANTITATIVE RESEARCH SHOWCASES
 ## Research Architecture by Prince Chauhan (SEBI Registered Research Analyst)
 
-This directory houses **7 self-contained, reproducible quantitative research showcases** designed to substantiate the empirical, mathematical, and algorithmic claims featured on Prince Chauhan's Quantitative Researcher CV:
+This directory houses **7 self-contained, reproducible quantitative research architectures** designed to substantiate the empirical, mathematical, and algorithmic standards of systematic institutional derivatives desks:
 
 ```
 research_showcases/
@@ -16,9 +16,9 @@ research_showcases/
 
 ---
 
-## ⚡ 10-Second Recruiter & Desk Quick-Start
+## Empirical Replication & Execution Harness
 
-Run the unified test suite across all 7 research showcases locally:
+Run the unified 29-test quantitative verification suite locally:
 
 ```powershell
 python -m unittest discover research_showcases
@@ -29,16 +29,16 @@ All 7 projects are **100% self-contained**, have zero live broker dependencies, 
 
 ---
 
-## 📐 Quantitative Research Architecture
+## Quantitative Research Architecture
 
 ```mermaid
 graph TD
-    A["Raw Market Ingestion<br/>NSE/BSE 1-Min Ticks & Options Chains"] --> B["Quantitative Feature Engine"]
+    A["Market Data Ingestion<br/>NSE/BSE 1-Min Ticks & Options Chains"] --> B["Quantitative Feature Engine"]
     B --> B1["SVI Volatility Surface & Dealer GEX"]
     B --> B2["Johansen Cointegration & OU Half-Life"]
     B --> B3["Parkinson RV & K-Means Regime Classifier"]
     
-    B1 --> C["Signal Generation & Dynamic Allocation<br/>floor(Available Capital / Margin per Lot)"]
+    B1 --> C["Signal Generation & Dynamic Sizing<br/>floor(Available Capital / Margin per Lot)"]
     B2 --> C
     B3 --> C
     
@@ -56,7 +56,7 @@ graph TD
 
 ---
 
-## 🎯 Executive Showcase Summary & Empirical Benchmarks
+## Systematic Research Architectures & Empirical Benchmarks
 
 | # | Project Name | Mathematical / Empirical Framework | Invariants & Empirical Benchmark | Runnable Test |
 |---|---|---|---|---|
@@ -70,7 +70,7 @@ graph TD
 
 ---
 
-## 📊 Data Coverage & Ingestion Specification
+## Historical Market Data Invariants
 
 All quantitative models and case studies operate on institutional-grade intraday market data:
 - **Sample Period**: 1-minute historical intraday bar data spanning **2020 to 2026 (1,400+ trading sessions)**.
@@ -79,7 +79,7 @@ All quantitative models and case studies operate on institutional-grade intraday
 
 ---
 
-## 🏛️ Advanced Quantitative Infrastructure Map
+## Advanced Quantitative Infrastructure Map
 
 For external reviewers and institutional quant desks auditing full-stack capabilities beyond the public showcases:
 
