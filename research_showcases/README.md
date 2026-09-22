@@ -37,18 +37,18 @@ graph TD
     B --> B1["SVI Volatility Surface & Dealer GEX"]
     B --> B2["Johansen Cointegration & OU Half-Life"]
     B --> B3["Parkinson RV & K-Means Regime Classifier"]
-    
+
     B1 --> C["Signal Generation & Dynamic Sizing<br/>floor(Available Capital / Margin per Lot)"]
     B2 --> C
     B3 --> C
-    
+
     C --> D["Institutional Risk Gate<br/>11-Stage Invariant Audit (Rules L1-L22)"]
     D --> D1["Lookahead Clamping (t <= T-1)"]
     D --> D2["2x Turnover Friction Stress"]
     D --> D3["Monte Carlo Drawdown Cones (1,000 Paths)"]
-    
+
     D1 & D2 & D3 --> E["Microstructure Execution Simulator<br/>Passive Queue Priority & Sqrt Market Impact"]
-    
+
     E --> F["Institutional Deliverables Suite"]
     F --> F1["3-Page CRO Tear Sheet PDF (Native ₹)"]
     F --> F2["Canonical 11-Column Validation CSV"]

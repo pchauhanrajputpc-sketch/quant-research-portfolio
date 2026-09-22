@@ -1,23 +1,26 @@
-# PRINCE CHAUHAN — QUANTITATIVE RESEARCH & SYSTEMATIC DERIVATIVES
+# 🔬 QUANTITATIVE RESEARCH PORTFOLIO
+
+### Systematic Derivatives Modeling, Microstructure Simulation & Risk Governance
+**Open-Source Research Architecture Developed by [Prince Chauhan](https://github.com/pchauhanrajputpc-sketch) (SEBI Registered Research Analyst)**
 
 [![Build Status](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/actions/workflows/tests.yml/badge.svg)](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/actions)
 [![Unit Tests](https://img.shields.io/badge/Unit%20Tests-29%2F29%20Passing-10B981.svg)](#empirical-replication--execution-harness)
+[![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](#)
 [![SEBI Registered Research Analyst](https://img.shields.io/badge/SEBI%20Registration-Research%20Analyst-0284C7.svg)](https://www.sebi.gov.in/)
-[![Experience](https://img.shields.io/badge/Experience-9%2B%20Years%20Quant%20Desk-193B56.svg)](#executive-profile)
-[![Primary Stack](https://img.shields.io/badge/Stack-Python%20%7C%20Polars%20%7C%20NumPy%20%7C%20SciPy-F59E0B.svg)](#quantitative-modeling--engineering-stack)
-[![Exchange Coverage](https://img.shields.io/badge/Markets-NSE%20%7C%20BSE%20Derivatives%20%26%20Equities-10B981.svg)](#risk-governance--quantitative-invariants)
+[![Author Profile](https://img.shields.io/badge/GitHub%20Profile-pchauhanrajputpc--sketch-193B56.svg)](https://github.com/pchauhanrajputpc-sketch)
 [![Curriculum Vitae](https://img.shields.io/badge/Curriculum%20Vitae-Executive%20Profile%20(PDF)-0A2540.svg)](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher%20CV%20-%20ATS%20Format.pdf)
 
-> **PROPRIETARY INTELLECTUAL PROPERTY & COMPLIANCE NOTICE**:
+> **PROPRIETARY INTELLECTUAL PROPERTY & COMPLIANCE NOTICE**:  
 > *This repository contains sanitized reference research architectures, mathematical derivations, and risk validation kernels for institutional review. Proprietary alpha signals, live automated order execution loops, high-frequency co-location telemetry (DhanHQ), and real-money book parameters operate exclusively within an air-gapped, institutional private environment.*
 
 ---
 
-## Executive Profile
+## Author & Desk Mandate
 
-Senior Quantitative Analyst and Systematic Derivatives Strategist with **9+ years of track record** developing, validating, and deploying systematic options volatility, statistical arbitrage, and microstructure-aware execution architectures across Indian (NSE/BSE) index and single-stock derivatives.
+Developed and maintained by **Prince Chauhan** — Senior Quantitative Analyst and Systematic Derivatives Strategist with **9+ years of institutional track record** designing, backtesting, and deploying systematic options volatility, statistical arbitrage, and microstructure-aware execution architectures across Indian (NSE/BSE) index and single-stock derivatives.
 
-- **Desk Mandate**: Systematic Options Volatility, Statistical Arbitrage, and Quantitative Risk Governance on Indian (NSE/BSE) Derivatives Desks.
+- **Author Profile**: [github.com/pchauhanrajputpc-sketch](https://github.com/pchauhanrajputpc-sketch)
 - **Regulatory Standing**: SEBI Registered Research Analyst • NISM Series-XV Certified (Research Analyst).
 - **Academic Foundation**: Bachelor of Commerce (Honours), Kirori Mal College, University of Delhi (1st Division) • CA Final G1 (ICAI, 78% Marks).
 - **Core Competencies**: SVI & Spline Volatility Surface Calibration, Dealer Gamma Exposure (GEX), Causal Point-in-Time Backtesting, Cross-Asset Cointegration, Microstructure Execution Modeling, and Low-Latency Asynchronous Infrastructure.
@@ -49,18 +52,18 @@ graph TD
     B --> B1["SVI Volatility Surface & Dealer GEX"]
     B --> B2["Johansen Cointegration & OU Half-Life"]
     B --> B3["Parkinson RV & K-Means Regime Classifier"]
-    
+
     B1 --> C["Signal Generation & Dynamic Sizing<br/>floor(Available Capital / Margin per Lot)"]
     B2 --> C
     B3 --> C
-    
+
     C --> D["Institutional Risk Gate<br/>11-Stage Invariant Audit (Rules L1-L22)"]
     D --> D1["Lookahead Clamping (t <= T-1)"]
     D --> D2["2x Turnover Friction Stress"]
     D --> D3["Monte Carlo Drawdown Cones (1,000 Paths)"]
-    
+
     D1 & D2 & D3 --> E["Microstructure Execution Simulator<br/>Passive Queue Priority & Sqrt Market Impact"]
-    
+
     E --> F["Institutional Deliverables Suite"]
     F --> F1["3-Page CRO Tear Sheet PDF (Native ₹)"]
     F --> F2["Canonical 11-Column Validation CSV"]
@@ -88,7 +91,7 @@ Below are 7 self-contained, fully reproducible research modules mapping to insti
 
 All quantitative models and backtest results operate strictly on verified institutional-grade data feeds:
 - **Historical Horizon**: High-resolution 1-minute intraday bar data spanning **2020–2026 (1,400+ trading sessions)**.
-- **Instrument Scope**: 
+- **Instrument Scope**:
   - **Index Derivatives**: NIFTY 50, BANK NIFTY, and BSE SENSEX options chains (ATM and +/- 10 out-of-the-money strike slices).
   - **Equities**: Top 15 liquid Indian banking and index components (HDFC Bank, ICICI Bank, SBI, Reliance, Infosys, TCS, Axis Bank, Kotak Bank).
 - **Self-Contained Portability**: Every research showcase embeds clean, sanitized sample tick arrays. External desks and researchers can clone and run all demonstrations immediately without requiring external database connections or third-party market data subscriptions.
