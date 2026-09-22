@@ -184,9 +184,9 @@ class PointInTimeBacktester:
         mean_pnl = np.mean(arr)
         std_pnl = np.std(arr) if len(arr) > 1 else 1.0
 
-        # Downside deviation for Sortino
-        downside = arr[arr < 0]
-        downside_std = np.std(downside) if len(downside) > 1 else (std_pnl if std_pnl > 0 else 1.0)
+        # Downside deviation for Sortino (semi-deviation across all periods)
+        downside_sq = np.minimum(0.0, arr) ** 2
+        downside_std = math.sqrt(float(np.mean(downside_sq))) if len(arr) > 0 else 1.0
 
         sharpe = (mean_pnl / std_pnl) * math.sqrt(252) if std_pnl > 0 else 0.0
         sortino = (mean_pnl / downside_std) * math.sqrt(252) if downside_std > 0 else 0.0
