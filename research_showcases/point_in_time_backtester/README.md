@@ -54,12 +54,12 @@ Date,Instrument,Strike,Expiry,Type,TradeType,EntryTime,ExitTime,EntryPrice,ExitP
 
 Run the dedicated test suite:
 ```powershell
-python -m unittest research_showcases.01_point_in_time_backtester.test_backtester
+python -m unittest research_showcases.point_in_time_backtester.test_backtester
 ```
 
 Sample Python execution:
 ```python
-from research_showcases.01_point_in_time_backtester import PointInTimeBacktester
+from research_showcases.point_in_time_backtester import PointInTimeBacktester
 
 # Initialize ₹1.00 Crore Straddle Backtester
 bt = PointInTimeBacktester(initial_capital=10000000.0, strategy_type="STRADDLE")

@@ -41,12 +41,12 @@ When aggregate Net GEX is positive, market-maker delta-hedging dampens realized 
 
 Execute the unit test suite:
 ```powershell
-python -m unittest research_showcases.02_options_iv_surface.test_surface_model
+python -m unittest research_showcases.options_volatility_surface.test_surface_model
 ```
 
 Sample Python execution:
 ```python
-from research_showcases.02_options_iv_surface import (
+from research_showcases.options_volatility_surface import (
     black_scholes_price, implied_volatility, calculate_greeks, fit_svi_slice
 )
 import numpy as np

@@ -6,9 +6,9 @@
 [![Build Status](https://github.com/prince-chauhan-pc/quant-research-portfolio/actions/workflows/tests.yml/badge.svg)](https://github.com/prince-chauhan-pc/quant-research-portfolio/actions)
 [![Unit Tests](https://img.shields.io/badge/Unit%20Tests-29%2F29%20Passing-10B981.svg)](#empirical-replication--execution-harness)
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](#)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![SEBI Registered Research Analyst](https://img.shields.io/badge/SEBI%20Registration-Research%20Analyst-0284C7.svg)](https://www.sebi.gov.in/)
-[![Author Profile](https://img.shields.io/badge/GitHub%20Profile-pchauhanrajputpc--sketch-193B56.svg)](https://github.com/prince-chauhan-pc)
+[![Author Profile](https://img.shields.io/badge/GitHub%20Profile-prince--chauhan--pc-193B56.svg)](https://github.com/prince-chauhan-pc)
 [![Curriculum Vitae](https://img.shields.io/badge/Curriculum%20Vitae-Executive%20Profile%20(PDF)-0A2540.svg)](https://github.com/prince-chauhan-pc/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher%20CV%20-%20ATS%20Format.pdf)
 
 > **PROPRIETARY INTELLECTUAL PROPERTY & COMPLIANCE NOTICE**:
