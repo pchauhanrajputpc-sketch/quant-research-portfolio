@@ -1,15 +1,15 @@
 # 🔬 QUANTITATIVE RESEARCH PORTFOLIO
 
 ### Systematic Derivatives Modeling, Microstructure Simulation & Risk Governance
-**Open-Source Research Architecture Developed by [Prince Chauhan](https://github.com/pchauhanrajputpc-sketch) (SEBI Registered Research Analyst)**
+**Open-Source Research Architecture Developed by [Prince Chauhan](https://github.com/prince-chauhan-pc) (SEBI Registered Research Analyst)**
 
-[![Build Status](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/actions/workflows/tests.yml/badge.svg)](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/actions)
+[![Build Status](https://github.com/prince-chauhan-pc/quant-research-portfolio/actions/workflows/tests.yml/badge.svg)](https://github.com/prince-chauhan-pc/quant-research-portfolio/actions)
 [![Unit Tests](https://img.shields.io/badge/Unit%20Tests-29%2F29%20Passing-10B981.svg)](#empirical-replication--execution-harness)
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](#)
 [![SEBI Registered Research Analyst](https://img.shields.io/badge/SEBI%20Registration-Research%20Analyst-0284C7.svg)](https://www.sebi.gov.in/)
-[![Author Profile](https://img.shields.io/badge/GitHub%20Profile-pchauhanrajputpc--sketch-193B56.svg)](https://github.com/pchauhanrajputpc-sketch)
-[![Curriculum Vitae](https://img.shields.io/badge/Curriculum%20Vitae-Executive%20Profile%20(PDF)-0A2540.svg)](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher%20CV%20-%20ATS%20Format.pdf)
+[![Author Profile](https://img.shields.io/badge/GitHub%20Profile-pchauhanrajputpc--sketch-193B56.svg)](https://github.com/prince-chauhan-pc)
+[![Curriculum Vitae](https://img.shields.io/badge/Curriculum%20Vitae-Executive%20Profile%20(PDF)-0A2540.svg)](https://github.com/prince-chauhan-pc/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher%20CV%20-%20ATS%20Format.pdf)
 
 > **PROPRIETARY INTELLECTUAL PROPERTY & COMPLIANCE NOTICE**:
 > *This repository contains sanitized reference research architectures, mathematical derivations, and risk validation kernels for institutional review. Proprietary alpha signals, live automated order execution loops, high-frequency co-location telemetry (DhanHQ), and real-money book parameters operate exclusively within an air-gapped, institutional private environment.*
@@ -20,7 +20,7 @@
 
 Developed and maintained by **Prince Chauhan** — Senior Quantitative Analyst and Systematic Derivatives Strategist with **9+ years of institutional track record** designing, backtesting, and deploying systematic options volatility, statistical arbitrage, and microstructure-aware execution architectures across Indian (NSE/BSE) index and single-stock derivatives.
 
-- **Author Profile**: [github.com/pchauhanrajputpc-sketch](https://github.com/pchauhanrajputpc-sketch)
+- **Author Profile**: [github.com/prince-chauhan-pc](https://github.com/prince-chauhan-pc)
 - **Regulatory Standing**: SEBI Registered Research Analyst • NISM Series-XV Certified (Research Analyst).
 - **Academic Foundation**: Bachelor of Commerce (Honours), Kirori Mal College, University of Delhi (1st Division) • CA Final G1 (ICAI, 78% Marks).
 - **Core Competencies**: SVI & Spline Volatility Surface Calibration, Dealer Gamma Exposure (GEX), Causal Point-in-Time Backtesting, Cross-Asset Cointegration, Microstructure Execution Modeling, and Low-Latency Asynchronous Infrastructure.
@@ -33,7 +33,7 @@ Developed and maintained by **Prince Chauhan** — Senior Quantitative Analyst a
 To clone and execute the complete 29-test quantitative verification suite locally in sub-second time:
 
 ```bash
-git clone https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio.git
+git clone https://github.com/prince-chauhan-pc/quant-research-portfolio.git
 cd quant-research-portfolio
 pip install numpy scipy polars reportlab
 python -m unittest discover research_showcases
@@ -77,13 +77,13 @@ Below are 7 self-contained, fully reproducible research modules mapping to insti
 
 | # | Research Showcase | Quantitative Methodology | Calibrated Empirical Benchmark |
 |---|---|---|---|
-| **01** | **[Point-in-Time Backtesting Engine](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/point_in_time_backtester)** | Chronological event simulation, dynamic clearing-house SPAN margin models, Bailey & Lopez de Prado Deflated Sharpe Ratio (DSR), and full-sample RMS Sortino semi-deviation. | **NIFTY Options (2020–2026, 1,340 sessions)**:<br>• Net Sharpe: **1.84** (0.50% friction pre-deducted)<br>• Sortino (RMS): **2.91** \| Calmar: **1.48**<br>• Max Drawdown: **-7.8%** \| DSR: **0.96** |
-| **02** | **[Options Volatility Surface & Greeks](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/options_volatility_surface)** | Black-Scholes inversion (Newton-Raphson/Brent), natural cubic spline & SVI surface fitting, arbitrage-free total variance constraints, and aggregate dealer Gamma Exposure (GEX). | **Real-Time Strike Calibration (50 Slices)**:<br>• Inversion Speed: **< 1.2ms** per chain<br>• Total Variance RMSE: **0.0034**<br>• Arbitrage Bounds: **0 violations** (dw/dk >= 0) |
-| **03** | **[Bank Nifty Basket Cointegration](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/banknifty_cointegration)** | Johansen cointegration rank test, dynamic rolling OLS hedge ratios, Ornstein-Uhlenbeck spread half-life estimation, and mean-reverting Z-score execution. | **HDFC + ICICI + SBI vs. Bank Nifty**:<br>• Johansen Trace Stat: **42.1** (p < 0.01)<br>• ADF Test p-value: **0.014** (Stationary)<br>• OU Half-Life: **3.2 days** \| Net Sharpe: **1.68** |
-| **04** | **[Market Regime & Volatility Gating](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/regime_allocation)** | Unsupervised K-Means clustering on Parkinson High-Low Realized Volatility, IV/RV ratios, and return skewness. Dynamic short-gamma sizing reduction. | **Out-of-Sample Volatility Shock Gating**:<br>• Baseline Short-Gamma Max DD: **-24.2%**<br>• Regime-Gated Max DD: **-17.4%**<br>• **28.1% Maximum Drawdown Reduction** |
-| **05** | **[Microstructure & Execution Simulator](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/execution_simulator)** | Order book queue priority, limit vs. market fill probability, square-root market impact (Impact proportional to Volatility * sqrt(Size / Volume)). | **Microstructure Cost Attribution**:<br>• Market-Crossing Savings: **1.8 bps**<br>• Queue fill model calibrated to passive depth<br>• Pre-trade transaction friction benchmarked |
-| **06** | **[Institutional Tear Sheet Generator](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/institutional_tearsheet_generator)** | 6x2 KPI Scorecard, 8-year monthly returns heatmap grid, peak-to-trough underwater drawdown dynamics, and native Indian Rupee (₹) typography. | **Executive Risk Reporting Engine**:<br>• 3-Page Executive CRO PDF compiled in **0.18s**<br>• Native Rupee (₹) TrueType Arial glyphs<br>• Institutional rating scorecard interpretations |
-| **07** | **[Strategy Validator & Integrity Gate](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/tree/main/research_showcases/strategy_validator_gate)** | 11-stage production audit gate (Rules L1–L22), intraday horizon boundaries (<= 15:14:59), 2x friction stress testing, and Monte Carlo drawdown cones (1,000 paths). | **Statistical Stress & Ruin Governance**:<br>• 1,000 Bootstrap Resamplings<br>• 99% Historical 1-Day VaR: **-2.1%**<br>• Probability of Ruin: **0.00%** |
+| **01** | **[Point-in-Time Backtesting Engine](https://github.com/prince-chauhan-pc/quant-research-portfolio/tree/main/research_showcases/point_in_time_backtester)** | Chronological event simulation, dynamic clearing-house SPAN margin models, Bailey & Lopez de Prado Deflated Sharpe Ratio (DSR), and full-sample RMS Sortino semi-deviation. | **NIFTY Options (2020–2026, 1,340 sessions)**:<br>• Net Sharpe: **1.84** (0.50% friction pre-deducted)<br>• Sortino (RMS): **2.91** \| Calmar: **1.48**<br>• Max Drawdown: **-7.8%** \| DSR: **0.96** |
+| **02** | **[Options Volatility Surface & Greeks](https://github.com/prince-chauhan-pc/quant-research-portfolio/tree/main/research_showcases/options_volatility_surface)** | Black-Scholes inversion (Newton-Raphson/Brent), natural cubic spline & SVI surface fitting, arbitrage-free total variance constraints, and aggregate dealer Gamma Exposure (GEX). | **Real-Time Strike Calibration (50 Slices)**:<br>• Inversion Speed: **< 1.2ms** per chain<br>• Total Variance RMSE: **0.0034**<br>• Arbitrage Bounds: **0 violations** (dw/dk >= 0) |
+| **03** | **[Bank Nifty Basket Cointegration](https://github.com/prince-chauhan-pc/quant-research-portfolio/tree/main/research_showcases/banknifty_cointegration)** | Johansen cointegration rank test, dynamic rolling OLS hedge ratios, Ornstein-Uhlenbeck spread half-life estimation, and mean-reverting Z-score execution. | **HDFC + ICICI + SBI vs. Bank Nifty**:<br>• Johansen Trace Stat: **42.1** (p < 0.01)<br>• ADF Test p-value: **0.014** (Stationary)<br>• OU Half-Life: **3.2 days** \| Net Sharpe: **1.68** |
+| **04** | **[Market Regime & Volatility Gating](https://github.com/prince-chauhan-pc/quant-research-portfolio/tree/main/research_showcases/regime_allocation)** | Unsupervised K-Means clustering on Parkinson High-Low Realized Volatility, IV/RV ratios, and return skewness. Dynamic short-gamma sizing reduction. | **Out-of-Sample Volatility Shock Gating**:<br>• Baseline Short-Gamma Max DD: **-24.2%**<br>• Regime-Gated Max DD: **-17.4%**<br>• **28.1% Maximum Drawdown Reduction** |
+| **05** | **[Microstructure & Execution Simulator](https://github.com/prince-chauhan-pc/quant-research-portfolio/tree/main/research_showcases/execution_simulator)** | Order book queue priority, limit vs. market fill probability, square-root market impact (Impact proportional to Volatility * sqrt(Size / Volume)). | **Microstructure Cost Attribution**:<br>• Market-Crossing Savings: **1.8 bps**<br>• Queue fill model calibrated to passive depth<br>• Pre-trade transaction friction benchmarked |
+| **06** | **[Institutional Tear Sheet Generator](https://github.com/prince-chauhan-pc/quant-research-portfolio/tree/main/research_showcases/institutional_tearsheet_generator)** | 6x2 KPI Scorecard, 8-year monthly returns heatmap grid, peak-to-trough underwater drawdown dynamics, and native Indian Rupee (₹) typography. | **Executive Risk Reporting Engine**:<br>• 3-Page Executive CRO PDF compiled in **0.18s**<br>• Native Rupee (₹) TrueType Arial glyphs<br>• Institutional rating scorecard interpretations |
+| **07** | **[Strategy Validator & Integrity Gate](https://github.com/prince-chauhan-pc/quant-research-portfolio/tree/main/research_showcases/strategy_validator_gate)** | 11-stage production audit gate (Rules L1–L22), intraday horizon boundaries (<= 15:14:59), 2x friction stress testing, and Monte Carlo drawdown cones (1,000 paths). | **Statistical Stress & Ruin Governance**:<br>• 1,000 Bootstrap Resamplings<br>• 99% Historical 1-Day VaR: **-2.1%**<br>• Probability of Ruin: **0.00%** |
 
 ---
 
@@ -122,9 +122,9 @@ All research published across this desk strictly adheres to institutional risk s
 
 ## Executive Verification & Contact
 
-- **Curriculum Vitae (PDF)**: [`Prince Chauhan Quantitative Researcher CV.pdf`](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher%20CV%20-%20ATS%20Format.pdf)
+- **Curriculum Vitae (PDF)**: [`Prince Chauhan Quantitative Researcher CV.pdf`](https://github.com/prince-chauhan-pc/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher%20CV%20-%20ATS%20Format.pdf)
 - **Direct Communications**: [pchauhanrajput.pc@gmail.com](mailto:pchauhanrajput.pc@gmail.com) • [LinkedIn Network](https://www.linkedin.com/in/prince-chauhan-quant/)
-- **Quantitative Research Portfolio**: [github.com/pchauhanrajputpc-sketch/quant-research-portfolio](https://github.com/pchauhanrajputpc-sketch/quant-research-portfolio)
+- **Quantitative Research Portfolio**: [github.com/prince-chauhan-pc/quant-research-portfolio](https://github.com/prince-chauhan-pc/quant-research-portfolio)
 
 ---
 *Prince Chauhan Quantitative Research Desk • Systematic Derivatives & Risk Architecture*
